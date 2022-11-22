@@ -1,0 +1,126 @@
+@import url(../fonts/fontawesome-free-6.2.1-web/css/all.min.css);
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/WbmpR4l.jpeg") center no-repeat;
+  background-size: cover;
+
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  text-shadow: 3px 3px 5px white, 3px 3px 10px rgb(196, 59, 59), 3px 3px 15px rgb(228, 26, 87), 3px 3px 20px rgb(138, 125, 59);
+  font-size: 30px;
+}
+
+.nav__link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.icons {
+  text-shadow: 3px 3px 5px white, 3px 3px 10px rgb(196, 59, 59), 3px 3px 15px rgb(228, 26, 87), 3px 3px 20px rgb(138, 125, 59);
+  margin-left: 50px;
+  margin-right: 25px;
+  color: rgb(13, 9, 9);
+  font-size: 2em;
+  list-style: none;
+  display: inline-block;
+}
+
+nav {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: rgb(239, 240, 248);
+}
+
+.intro__title {
+  color: rgba(0, 0, 0, 0.91);
+  text-align: center;
+  text-shadow: 3px 3px 5px white, 3px 3px 10px rgb(196, 59, 59), 3px 3px 15px rgb(228, 26, 87), 3px 3px 20px rgb(138, 125, 59);
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+  font-size: 70px;
+
+}
+
+.main p,
+h4 {
+  text-shadow: 3px 3px 11px rgb(233, 55, 55), 3px 3px 15px rgba(133, 7, 7, 0.971);
+  font-size: 25px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+.gallery-2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 20px;
+  height: 400px;
+}
+.card {
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 450px;
+  border-radius: 5px;
+  padding: 55px;
+  text-align: center;
+  margin:57px;
+  justify-content: center;
+}
+.paragraph {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  text-shadow: 3px 3px 11px rgb(233, 55, 55), 3px 3px 15px rgba(133, 7, 7, 0.971);
+}
+h1,h2{
+  text-shadow: 3px 3px 11px rgb(233, 55, 55), 3px 3px 15px rgba(133, 7, 7, 0.971);
+}

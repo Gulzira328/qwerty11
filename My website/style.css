@@ -1,0 +1,172 @@
+@import url(../fonts/fontawesome-free-6.2.1-web/css/all.min.css);
+
+body {
+
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+  background-color: rgb(12, 2, 50);
+
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/levon-vardanyan-_EpaiWp5yC8-unsplash.jpg") center no-repeat;
+  background-size: cover;
+
+}
+
+.header {
+  padding-top: 30px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  color: rgba(151, 53, 217, 0.821);
+  font-size: 30px;
+  text-shadow: 3px 3px 3px white, 3px 3px 10px rgb(252, 253, 251), 3px 3px 15px rgb(126, 78, 208), 3px 3px 20px rgb(2, 2, 2);
+}
+
+.icons {
+  margin-left: 50px;
+  margin-right: 25px;
+  display: inline-block;
+
+  color: white;
+  font-size: 2em;
+  list-style: none;
+
+}
+
+.nav__item {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+  position: relative;
+
+}
+
+nav {
+  font-size: 20px;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  font-weight: bold;
+  justify-content: space-between;
+
+}
+
+
+.intro__title {
+  text-align: center;
+  color: rgba(117, 42, 197, 0.788);
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+  font-size: 80px;
+  text-shadow: 3px 3px 3px white, 3px 3px 10px rgb(197, 203, 27), 3px 3px 15px rgb(48, 7, 119), 3px 3px 20px rgb(2, 2, 2);
+}
+
+section {
+  padding-top: 20px;
+
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.description p {
+  font-style: italic;
+  font-size: 20px;
+}
+.desc-left,
+.desc-right {
+  width: 567px;
+  font-size: 25px;
+}
+.title {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  padding: 20px;
+}
+
+h2 {
+  text-shadow: 3px 3px 4px white, 3px 3px 10px rgb(42, 27, 203), 3px 3px 15px rgb(48, 7, 119), 3px 3px 20px rgba(2, 2, 2, 0.723);
+}
+
+h3 {
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.862), 3px 3px 10px rgb(72, 97, 8), 3px 3px 15px rgb(100, 50, 186), 3px 3px 20px rgba(2, 2, 2, 0.816);
+}
+
+p {
+  text-shadow: 3px 3px 3px white, 3px 3px 10px rgb(153, 203, 27), 3px 3px 15px rgb(100, 50, 186), 3px 3px 20px rgba(2, 2, 2, 0.816);
+  font-size: 30px;
+  margin: 30px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+  height: 610px;
+}
+.main h4{
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.717), 3px 3px 10px rgb(9, 6, 5), 3px 3px 15px rgba(19, 18, 19, 0.818), 3px 3px 20px rgb(147, 35, 35);
+  font-size: 25px;
+  margin: 30px;
+
+}
+.gallery-2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 20px;
+  height: 400px;
+}
